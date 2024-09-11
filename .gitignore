@@ -1,6 +1,41 @@
+# Specific files to ignore
 cursor_test.py
 classifier-simple2.py
 credentials.json
 token.pickle
 token.json
-testing-punkt.txt
+testing-punkt.py
+
+# Ignore virtual environment
+venv/
+env/
+.env/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore any additional sensitive or configuration files
+*.config
+*.ini
+
+# Ignore backup files
+*.bak
+*~
